@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(45deg,yellow,green,cyan);
+    height: 100%;
+}
+.container{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+#seconds{
+    font-size: 2em;
+}
+#tens{
+    font-size: 2em;
+}
+button:hover{
+    background:white;
+    color: cyan;
+    font-weight: 800;
+}
